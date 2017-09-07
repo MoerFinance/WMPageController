@@ -1,3 +1,18 @@
+
+## Update
+
+- Add event for Double-click the current tab
+
+## Usage
+
+Add the following line to your Podfile:
+
+```
+pod 'WMPageController', :git => 'https://github.com/MoerFinance/WMPageController.git
+```
+
+------
+
 # WMPageController [中文介绍](https://github.com/wangmchn/WMPageController/blob/master/README_zh-CN.md)
 [![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat
 )](https://developer.apple.com/iphone/index.action)
@@ -98,3 +113,5 @@ Here is an example:
 
 ## License
 This project is under MIT License. See LICENSE file for more information.
+
+

@@ -542,7 +542,13 @@ static NSInteger const WMBadgeViewTagOffset = 1212;
 
 #pragma mark - Menu item delegate
 - (void)didPressedMenuItem:(WMMenuItem *)menuItem {
-    if (self.selItem == menuItem) { return; }
+    if (self.selItem == menuItem) {
+        NSInteger currentIndex = self.selItem.tag - WMMenuItemTagOffset;
+        if ([self.delegate respondsToSelector:@selector(menuView:didSelesctedIndex:currentIndex:)]) {
+            [self.delegate menuView:self didSelesctedIndex:menuItem.tag-WMMenuItemTagOffset currentIndex:currentIndex];
+        }
+        return;
+    }
     
     if ([self.delegate respondsToSelector:@selector(menuView:shouldSelesctedIndex:)]) {
         BOOL should = [self.delegate menuView:self shouldSelesctedIndex:menuItem.tag - WMMenuItemTagOffset];
