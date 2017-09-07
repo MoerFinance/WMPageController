@@ -8,7 +8,7 @@
 Add the following line to your Podfile:
 
 ```
-pod 'WMPageController', :git => 'https://github.com/MoerFinance/WMPageController.git
+pod 'WMPageController', :git => 'https://github.com/MoerFinance/WMPageController.git'
 ```
 
 ------

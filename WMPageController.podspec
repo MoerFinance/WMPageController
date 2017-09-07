@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name         = "WMPageController"
-   s.version      = "2.3.0"
+   s.version      = "2.3.0-0.1.0"
    s.summary      = "An easy solution to page controllers like NetEase News"
    s.homepage     = "https://github.com/wangmchn/WMPageController"
    s.license      = 'MIT (LICENSE)'
