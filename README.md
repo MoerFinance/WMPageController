@@ -1,8 +1,3 @@
-
-## Update
-
-- Add event for Double-click the current tab
-
 ## Usage
 
 Add the following line to your Podfile:
